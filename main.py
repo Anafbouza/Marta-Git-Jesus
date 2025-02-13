@@ -13,20 +13,18 @@ def animate_train():
     Anima un tren en movimiento de izquierda a derecha en la consola.
     """
     train = [
-        "      ____      ",
-        "  ___/____\\____ ",
-        " /|  _  _  _  _|",
-        "  |_|_|_|_|_|_| ",
-        "    (O)    (O) "
+        "       ____      ",
+        "  _\___/____\\____ ",
+        "   |  _  _  _  _|",
+        "   |_|_|_|_|_|_| ",
+        "     (O)    (O) "
     ]
     
-    width = 80
     
     for position in range(0, width):
         clear_screen()
         for line in train:
             print(" " * position + line)
-        time.sleep(0.1)
     print("\n¡El tren ha completado su recorrido!")
 
 def main():
