@@ -21,7 +21,7 @@ def animate_train():
     ]
     
     
-    for position in range(0, width):
+    for position in range(0, 50):
         clear_screen()
         for line in train:
             print(" " * position + line)
